@@ -1,0 +1,288 @@
+{
+  "transactions": [
+    {
+      "id": "e98f3163-51ae-4196-972e-e692600852b9",
+      "type": "Expense",
+      "amount": 200,
+      "category": "Entertainment",
+      "date": "2025-05-14",
+      "description": "Movie"
+    },
+    {
+      "id": "1",
+      "type": "Income",
+      "amount": 5000,
+      "category": "Salary",
+      "date": "2025-05-01",
+      "description": "Monthly salary"
+    },
+    {
+      "id": "2",
+      "type": "Expense",
+      "amount": 1200,
+      "category": "Rent",
+      "date": "2025-05-03",
+      "description": "Monthly apartment rent"
+    },
+    {
+      "id": "3",
+      "type": "Expense",
+      "amount": 350,
+      "category": "Groceries",
+      "date": "2025-05-05",
+      "description": "Weekly grocery shopping"
+    },
+    {
+      "id": "4",
+      "type": "Expense",
+      "amount": 90,
+      "category": "Utilities",
+      "date": "2025-05-06",
+      "description": "Electricity bill"
+    },
+    {
+      "id": "5",
+      "type": "Expense",
+      "amount": 60,
+      "category": "Transportation",
+      "date": "2025-05-07",
+      "description": "Gas refill"
+    },
+    {
+      "id": "6",
+      "type": "Income",
+      "amount": 200,
+      "category": "Freelance",
+      "date": "2025-05-08",
+      "description": "Logo design"
+    },
+    {
+      "id": "7",
+      "type": "Expense",
+      "amount": 45,
+      "category": "Entertainment",
+      "date": "2025-05-09",
+      "description": "Movie night"
+    },
+    {
+      "id": "8",
+      "type": "Expense",
+      "amount": 150,
+      "category": "Dining",
+      "date": "2025-05-10",
+      "description": "Dinner with friends"
+    },
+    {
+      "id": "9",
+      "type": "Expense",
+      "amount": 100,
+      "category": "Health",
+      "date": "2025-05-11",
+      "description": "Pharmacy purchase"
+    },
+    {
+      "id": "10",
+      "type": "Income",
+      "amount": 400,
+      "category": "Investment",
+      "date": "2025-05-12",
+      "description": "Stock dividends"
+    },
+    {
+      "id": "11",
+      "type": "Expense",
+      "amount": 75,
+      "category": "Fitness",
+      "date": "2025-05-13",
+      "description": "Gym membership"
+    },
+    {
+      "id": "12",
+      "type": "Expense",
+      "amount": 60,
+      "category": "Clothing",
+      "date": "2025-05-14",
+      "description": "New shoes"
+    },
+    {
+      "id": "13",
+      "type": "Income",
+      "amount": 250,
+      "category": "Bonus",
+      "date": "2025-05-15",
+      "description": "Quarterly bonus"
+    },
+    {
+      "id": "14",
+      "type": "Expense",
+      "amount": 300,
+      "category": "Education",
+      "date": "2025-05-16",
+      "description": "Online course"
+    },
+    {
+      "id": "15",
+      "type": "Expense",
+      "amount": 40,
+      "category": "Pets",
+      "date": "2025-05-17",
+      "description": "Pet food"
+    },
+    {
+      "id": "16",
+      "type": "Income",
+      "amount": 600,
+      "category": "Side Hustle",
+      "date": "2025-05-18",
+      "description": "Weekend gig"
+    },
+    {
+      "id": "17",
+      "type": "Expense",
+      "amount": 55,
+      "category": "Books",
+      "date": "2025-05-19",
+      "description": "Tech books"
+    },
+    {
+      "id": "18",
+      "type": "Expense",
+      "amount": 120,
+      "category": "Gifts",
+      "date": "2025-05-20",
+      "description": "Birthday gift"
+    },
+    {
+      "id": "19",
+      "type": "Expense",
+      "amount": 85,
+      "category": "Travel",
+      "date": "2025-05-21",
+      "description": "Weekend trip"
+    },
+    {
+      "id": "20",
+      "type": "Income",
+      "amount": 100,
+      "category": "Cashback",
+      "date": "2025-05-22",
+      "description": "Credit card cashback"
+    },
+    {
+      "id": "21",
+      "type": "Expense",
+      "amount": 35,
+      "category": "Subscription",
+      "date": "2025-05-23",
+      "description": "Netflix"
+    },
+    {
+      "id": "22",
+      "type": "Expense",
+      "amount": 95,
+      "category": "Beauty",
+      "date": "2025-05-24",
+      "description": "Salon visit"
+    },
+    {
+      "id": "23",
+      "type": "Expense",
+      "amount": 130,
+      "category": "Electronics",
+      "date": "2025-05-25",
+      "description": "Bluetooth speaker"
+    },
+    {
+      "id": "24",
+      "type": "Income",
+      "amount": 350,
+      "category": "Gift",
+      "date": "2025-05-26",
+      "description": "Birthday gift from parents"
+    },
+    {
+      "id": "25",
+      "type": "Expense",
+      "amount": 220,
+      "category": "Home",
+      "date": "2025-05-27",
+      "description": "Furniture"
+    },
+    {
+      "id": "26",
+      "type": "Expense",
+      "amount": 30,
+      "category": "Stationery",
+      "date": "2025-05-28",
+      "description": "Office supplies"
+    },
+    {
+      "id": "27",
+      "type": "Income",
+      "amount": 150,
+      "category": "Refund",
+      "date": "2025-05-29",
+      "description": "Returned item"
+    },
+    {
+      "id": "28",
+      "type": "Expense",
+      "amount": 70,
+      "category": "Snacks",
+      "date": "2025-05-30",
+      "description": "Team snacks"
+    },
+    {
+      "id": "29",
+      "type": "Expense",
+      "amount": 180,
+      "category": "Medical",
+      "date": "2025-05-31",
+      "description": "Doctor visit"
+    },
+    {
+      "id": "30",
+      "type": "Income",
+      "amount": 800,
+      "category": "Salary",
+      "date": "2025-06-01",
+      "description": "June salary"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "e3d0",
+      "category": "Entertainment",
+      "amount": 1000
+    },
+  { "id": "b1", "category": "Entertainment", "amount": 1000 },
+  { "id": "b3", "category": "Rent", "amount": 1500 },
+  { "id": "b4", "category": "Groceries", "amount": 1200 },
+  { "id": "b5", "category": "Utilities", "amount": 500 },
+  { "id": "b6", "category": "Transportation", "amount": 500 },
+  { "id": "b7", "category": "Freelance", "amount": 1000 },
+  { "id": "b8", "category": "Dining", "amount": 800 },
+  { "id": "b9", "category": "Health", "amount": 700 },
+  { "id": "b10", "category": "Investment", "amount": 2000 },
+  { "id": "b11", "category": "Fitness", "amount": 500 },
+  { "id": "b12", "category": "Clothing", "amount": 800 },
+  { "id": "b13", "category": "Bonus", "amount": 1000 },
+  { "id": "b14", "category": "Education", "amount": 1000 },
+  { "id": "b15", "category": "Pets", "amount": 400 },
+  { "id": "b16", "category": "Side Hustle", "amount": 1200 },
+  { "id": "b17", "category": "Books", "amount": 300 },
+  { "id": "b18", "category": "Gifts", "amount": 500 },
+  { "id": "b19", "category": "Travel", "amount": 1000 },
+  { "id": "b20", "category": "Cashback", "amount": 300 },
+  { "id": "b21", "category": "Subscription", "amount": 200 },
+  { "id": "b22", "category": "Beauty", "amount": 600 },
+  { "id": "b23", "category": "Electronics", "amount": 2000 },
+  { "id": "b24", "category": "Gift", "amount": 1000 },
+  { "id": "b25", "category": "Home", "amount": 1500 },
+  { "id": "b26", "category": "Stationery", "amount": 300 },
+  { "id": "b27", "category": "Refund", "amount": 500 },
+  { "id": "b28", "category": "Snacks", "amount": 400 },
+  { "id": "b29", "category": "Medical", "amount": 1000 }
+
+  ]
+}

@@ -1,0 +1,297 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f5f7fb;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar */
+
+nav.navbar {
+  background-color: #4caf50;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav.navbar h2 {
+  color: white;
+  margin: 0;
+}
+
+nav.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Page Headings */
+h1 {
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Stats Cards */
+.stats-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.stats-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  min-width: 200px;
+  text-align: center;
+}
+
+.stats-card h3 {
+  font-size: 1.2rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.stats-card p {
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+/* Dashboard Charts */
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+/* Budget Grid */
+.budgets-page {
+  padding: 2rem;
+}
+
+.budget-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.budget-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.budget-card h3 {
+  margin-bottom: 0.5rem;
+  color: #34495e;
+}
+
+.budget-card p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.budget-card input {
+  padding: 0.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+.budget-card button {
+  margin-top: 0.5rem;
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.budget-card button:hover {
+  background-color: #16a085;
+}
+
+/* Forms (Generic) */
+form {
+  margin-top: 1rem;
+}
+
+input, select, textarea {
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Buttons (Global) */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Transaction History Page Styling */
+.transaction-history-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.transaction-history-page h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+/* Table Wrapper */
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Table Head */
+.transaction-table thead {
+  background-color: #1e1e2f;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+/* Table Body */
+.transaction-table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.2s ease;
+}
+
+.transaction-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 1rem 1.5rem;
+  text-align: left;
+}
+
+.transaction-table td.amount {
+  font-weight: bold;
+}
+
+.transaction-table td.expense {
+  color: #e74c3c;
+}
+
+.transaction-table td.income {
+  color: #2ecc71;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+  .transaction-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+
+/* Reports / Settings */
+.page-content {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+}
+.transaction-form-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-form-card input,
+.transaction-form-card select {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  transition: border 0.2s ease;
+}
+
+.transaction-form-card input:focus,
+.transaction-form-card select:focus {
+  border-color: #4a90e2;
+  outline: none;
+  background-color: #fff;
+}
+
+.transaction-form-card button {
+  padding: 0.75rem;
+  background-color: #4a90e2;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.transaction-form-card button:hover {
+  background-color: #3b7cc4;
+}
+
