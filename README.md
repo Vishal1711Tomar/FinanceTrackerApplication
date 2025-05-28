@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# 💰 Personal Finance Tracker Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a **multi-page web application** built to help users manage their personal finances in a simple and visual way. The app allows users to track their **income, expenses, budgets**, and view **financial reports** using charts and tables.
 
-## Available Scripts
+## 📺 Project Demo
 
-In the project directory, you can run:
+🎥 [Click here to watch the project demo video](https://github.com/Vishal1711Tomar/FinanceTrackerApplication/blob/main/src/assets/FinanceTracker.mp4)  
+You can also find it in the `assets` folder of this repository.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📄 Pages and Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. 🏠 Dashboard
+- Displays a quick financial summary:
+  - Total Income
+  - Total Expenses
+  - Remaining Budget
+  - Total Savings
+- Includes visual data charts:
+  - Monthly spending trends (Bar/Line Chart)
+  - Category-wise expense breakdown (Pie Chart)
+- Key highlights like:
+  - Top Expense Categories
+  - Biggest Expense of the Month
 
-### `npm test`
+> 💡 Implemented using chart libraries like Chart.js or Recharts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### 2. ➕ Add Transaction Page
+- A form to add new income or expense entries.
+- Fields include:
+  - Type (Income or Expense)
+  - Amount
+  - Category
+  - Date
+  - Optional Description
+- Includes validation for required fields and number inputs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. 📜 Transaction History
+- Shows all user transactions in a structured table.
+- Features include:
+  - Filtering by date range or category
+  - Sorting by date, type, or amount
+  - Pagination for easy viewing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### 4. 📊 Budgets
+- Set monthly budgets for different categories.
+- Visual indicators show budget consumption:
+  - Progress bars for each category
+- Alerts if a category's budget is exceeded.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 5. 📈 Reports Page
+- Generates detailed monthly and yearly reports.
+- Visual comparison between income and expenses.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠 Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React.js (Frontend)
+- Chart.js / Recharts (Data Visualization)
+- JSON Server (Mock Backend)
+- CSS / Tailwind (Styling)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  ## Important Points
 
-### Code Splitting
+- To see data run the db.json file on port 5000 { npx json-server --watch db.json --port 5000}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
