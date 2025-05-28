@@ -4,7 +4,7 @@ This is a **multi-page web application** built to help users manage their person
 
 ## 📺 Project Demo
 
-🎥 [Click here to watch the project demo video](https://github.com/Vishal1711Tomar/FinanceTrackerApplication/blob/main/src/assets/FinanceTracker.mp4)  
+🎥 [Click here to watch the project demo video](https://drive.google.com/file/d/1dC-kpyV-kiFeGndJNQXl23PgGsuVBo6j/view?usp=sharing)  
 You can also find it in the `assets` folder of this repository.
 
 ---
