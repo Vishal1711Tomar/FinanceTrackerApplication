@@ -34,7 +34,7 @@ function reducer(state, action) {
 export const FinanceProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
-  // Fetch data from JSON Server on load
+  // Fetch data from JSON Server on loading the page
   useEffect(() => {
     const fetchData = async () => {
       const [txRes, budgetRes] = await Promise.all([
@@ -47,19 +47,19 @@ export const FinanceProvider = ({ children }) => {
     fetchData();
   }, []);
 
-  // Add a transaction to server + state
+  //Add a transaction to the server + state
   const addTransaction = async (transaction) => {
     const res = await axios.post('http://localhost:5000/transactions', transaction);
     dispatch({ type: 'ADD_TRANSACTION', payload: res.data });
   };
 
-  // Delete a transaction from server + state
+  //Delete a transaction from the server + state
   const deleteTransaction = async (id) => {
     await axios.delete(`http://localhost:5000/transactions/${id}`);
     dispatch({ type: 'DELETE_TRANSACTION', payload: id });
   };
 
-  // Set or update budget in server + state
+  //Set or update budget in  the server + state
   const setBudget = async (category, amount) => {
     const existing = state.budgets.find((b) => b.category === category);
     if (existing) {

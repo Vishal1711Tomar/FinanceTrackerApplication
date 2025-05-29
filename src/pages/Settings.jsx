@@ -5,7 +5,7 @@ const Settings = () => {
 
   const handleCurrencyChange = (e) => {
     setCurrency(e.target.value);
-    // Future enhancement: persist this setting to context or localStorage
+   
   };
 
   return (

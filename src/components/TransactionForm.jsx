@@ -27,7 +27,7 @@ const TransactionForm = () => {
       amount: parseFloat(formData.amount),
     };
 
-    addTransaction(newTransaction); // ✅ Use context method instead of dispatch
+    addTransaction(newTransaction); 
     setFormData({ type: 'Income', amount: '', category: '', date: '', description: '' });
   };
 

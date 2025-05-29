@@ -5,7 +5,6 @@ import { useFinance } from '../context/FinanceContext';
 const Budgets = () => {
   const { state } = useFinance();
 
-  // Calculate total spending per category
   const categorySpending = state.transactions.reduce((acc, transaction) => {
     if (transaction.type === 'Expense') {
       acc[transaction.category] = (acc[transaction.category] || 0) + transaction.amount;
@@ -13,7 +12,6 @@ const Budgets = () => {
     return acc;
   }, {});
 
-  // Combine budget categories and spending categories to avoid missing data
   const categories = Array.from(
     new Set([
       ...state.budgets.map((b) => b.category),
