@@ -3,7 +3,7 @@
 This is a **multi-page web application** built to help users manage their personal finances in a simple and visual way. The app allows users to track their **income, expenses, budgets**, and view **financial reports** using charts and tables.
 
 ## 📺 Project Demo
-
+ [Live Demo](https://drive.google.com/file/d/1dC-kpyV-kiFeGndJNQXl23PgGsuVBo6j/view?usp=sharing)  
 🎥 [Click here to watch the project demo video](https://drive.google.com/file/d/1dC-kpyV-kiFeGndJNQXl23PgGsuVBo6j/view?usp=sharing)  
 You can also find it in the `assets` folder of this repository.
 
@@ -74,4 +74,28 @@ You can also find it in the `assets` folder of this repository.
   ## Important Points
 
 - To see data run the db.json file on port 5000 { npx json-server --watch db.json --port 5000}
+
+## 📸 Screenshots
+
+### 🧾 Dashboard
+
+![Dashboard](./Assets/ss1.jpg)
+
+---
+
+### Reports
+
+![Reports](./Assets/ss4.jpg)
+
+---
+
+### Budget
+
+![Budget](./Assets/ss3.jpg)
+
+---
+
+### Transaction History
+
+![Transaction History](./Assets/ss2.jpg)
 
